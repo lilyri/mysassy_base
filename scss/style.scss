@@ -1,5 +1,7 @@
 $mybackground: pink;
 
+@import_"partials/toc";
+
 body {
     background: $mybackground;
 }
