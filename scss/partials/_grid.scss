@@ -1,0 +1,37 @@
+/* SEMANTIC GRID */
+
+$gridgap: 2%;
+
+.row {
+    display: flex;
+    margin-left: -($gridgap / 2);
+    margin-right: -(gridgap / 2);
+  
+    > * {
+        margin: ($gridgap / 2);
+    }
+
+    .one-whole { width: 100% - $gridgap; }
+    .one-half { width: 50% - $gridgap; }
+    .one-third { width: 33.3333% - $gridgap; }
+    .two-third { width: 66.6666% - $gridgap; }
+
+}
+
+
+// FOR DEOMO PURPOSES ONLY
+.demo {
+    // border: 1px solid red;
+    box-shadow: inset 0 0 0 1px;
+
+    .row {
+        background-color: rgba(255,0,0,.1);
+
+        > * {
+            background-color: rgba(0,0,0,.1);
+            padding: 1%;
+            box-shadow: inset 0 0 0 1px green;
+        }
+    }
+
+}
