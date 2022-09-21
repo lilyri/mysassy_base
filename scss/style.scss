@@ -5,14 +5,19 @@
 // VARIABLES
 $color-text-body: rgba(0,0,0,.8);
 $color-text-headings: rgba(0,0,0,1);
+$color-accent: rgba(255,0,0,1);
+$color-accent-dark: rgb(158,0,0);
 
-$font-family-sans: Arial, Helvetica, sans-serif;
-$font-family-serif: Georgia, 'Times New Roman', Times, serif;
+$color-lightgrey: rgba(0,0,0,.5);
+
+$font-family-sans: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+$font-family-serif: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
 
 
 // IMPORT
 @import "partials/toc";
 @import "partials/typography";
+@import "partials/buttons";
 
 
 
