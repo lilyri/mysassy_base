@@ -1,9 +1,19 @@
-$color-background: yellow;
 
+/* GLOBAL RESETS */
+* { box-sizing: border-box; }
+
+// VARIABLES
+$color-text-body: rgba(0,0,0,.8);
+$color-text-headings: rgba(0,0,0,1);
+
+$font-family-sans: Arial, Helvetica, sans-serif;
+$font-family-serif: Georgia, 'Times New Roman', Times, serif;
+
+
+// IMPORT
 @import "partials/toc";
+@import "partials/typography";
 
-body {
-    background: $color-background;
-}
+
 
  

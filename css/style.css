@@ -1,11 +1,33 @@
+/* GLOBAL RESETS */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 /*
 
 TABLE OF CONTENTS
 
+# GLOBAL RESETS
 # BASE TYPOGRAPHY
 # COMPONENTS
 
 */
+/* BASE TEXT COLORS */
 body {
-  background: yellow;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* BASE HEADLINES */
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(0, 0, 0);
+}
+
+/* BASE TEXT FONTS */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
