@@ -7,15 +7,19 @@ $gridgap: 2%;
     flex-wrap: wrap;
     margin-left: -($gridgap / 2);
     margin-right: -(gridgap / 2);
+    align-items: center;
+    margin-bottom: 3em;
 
     > * {
         margin: ($gridgap / 2);
         flex-grow: 1;
     }
 
-    &.centered {
-        justify-content: center;
-    }
+    &.centered { justify-content: center; }
+    &.swapped { flex-direction: row-reverse; }
+    &.stacked { flex-direction: column; }
+    &.align-top { align-items: flex-start; }
+
 
     @media (min-width: $breakpoint-small){
 
@@ -50,6 +54,7 @@ $gridgap: 2%;
 
     .row {
         // background-color: rgba(255,0,0,.1);
+        margin-bottom: 0;
 
         > * {
             background-color: rgba(0,0,0,.1);
