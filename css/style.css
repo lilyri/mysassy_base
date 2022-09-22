@@ -13,10 +13,16 @@ TABLE OF CONTENTS
 # BUTTONS
 # MEDIA
   # RESPONSIVE IMAGES
-#LAYOUT
+# LAYOUT
   # CONTAINER
   # MEDIA QUERIES
   # CUSTOM SEMANTIC GRID SYSTEM
+# STRUCTURE
+  # SITE HEADER
+  # SITE MAP
+  # MAIN
+    # SECTIONS
+  # SITE FOOTER
 
 
 */
@@ -230,4 +236,9 @@ body {
 .demo .row > * {
   background-color: rgba(0, 0, 0, 0.1);
   padding: 1%;
+}
+
+/* SITE STRUCTURE */
+.site-header {
+  background: purple;
 }
