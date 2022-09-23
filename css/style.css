@@ -101,7 +101,19 @@ hr {
   margin: 0.25em 0;
 }
 
-/* HELPERS */
+/* SECTION HEADING */
+.section-heading {
+  font-size: 1em;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  border-bottom: 5px solid rgb(255, 0, 0);
+  display: table;
+  padding: 0 0 1em 0;
+  margin: 1em auto 3em auto;
+}
+
 /* BUTTONS */
 .button {
   display: inline-block;
@@ -240,5 +252,69 @@ body {
 
 /* SITE STRUCTURE */
 .site-header {
-  background: purple;
+  background: rgb(158, 0, 0);
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+.site-header h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+/* SITE FOOTER */
+.site-footer {
+  background: rgb(158, 0, 0);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.site-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/* SITE-NAV */
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.site-nav a {
+  display: inline-block;
+  padding: 1em;
+  line-height: 1;
+}
+
+section {
+  padding: 4em 0;
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: rgb(255, 202, 202);
+  text-align: center;
+}
+.hero h1 {
+  margin-bottom: 0.25em;
+}
+.hero p {
+  margin: 1em auto;
 }
